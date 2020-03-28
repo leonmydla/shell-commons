@@ -9,15 +9,12 @@ alias zshreload="source ~/.zshrc"
 
 alias mci="mvn clean install -DskipTests"
 
-alias search-aliases="alias | egrep --color=yes "
 alias sa="search-aliases"
-
-alias search-aliases-for-git="alias | egrep \"='?git\" | egrep --color=yes "
 alias sag="search-aliases-for-git"
 
 alias dnsflush="sudo /etc/init.d/dns-clean restart && sudo /etc/init.d/networking force-reload"
 
-# docker aliases
+# Docker
 alias dk="docker"
 
 alias dps="docker ps"
