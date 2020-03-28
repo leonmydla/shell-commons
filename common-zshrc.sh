@@ -10,10 +10,13 @@ plugins=(
   docker-compose
 )
 
+# Reload oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+### Basic shell commons
+
 export GIT_EDITOR=vim
 
 # Import offloaded configuration
+source $SHELL_COMMONS_PATH/commands.sh
 source $SHELL_COMMONS_PATH/zsh-aliases.sh
-
-### Reload oh-my-zsh
-source $ZSH/oh-my-zsh.sh
