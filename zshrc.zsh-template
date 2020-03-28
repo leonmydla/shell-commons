@@ -6,6 +6,7 @@ export ZSH="/home/lmydla/.oh-my-zsh"
 
 # Configure oh-my-zsh using the common-shell repo
 source $HOME/lib/shell-commons/common-zshrc.sh
+#source $HOME/leonmydla/workspace/shell-commons/common-zshrc.sh
 
 # Reload oh-my-zsh
 source $ZSH/oh-my-zsh.sh
