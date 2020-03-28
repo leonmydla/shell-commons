@@ -1,7 +1,9 @@
 search-aliases () {
-	alias | egrep --color=yes $1
+	search_term="${@:1}"
+	alias | egrep --color=yes "$search_term"
 }
 
-search-aliases () {
-	alias | egrep =\'?git | egrep --color=yes $1
+search-aliases-for-git () {
+	search_term="${@:1}"
+	zsh -c "source $HOME/.zshrc && alias | egrep \"="\'"?git\" | egrep --color=yes \"$search_term\""
 }
