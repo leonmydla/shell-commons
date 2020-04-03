@@ -1,8 +1,6 @@
 # help curing the habit of using cd
 alias cd="echo NEIN! NEIN! NEIN! YOU DO NOT NEED THE cd && sleep 3 && cd "
 
-alias ..l=".. && l"
-
 ### General shortcuts
 alias vizsh="vi ~/.zshrc"
 alias zshreload="source ~/.zshrc"
