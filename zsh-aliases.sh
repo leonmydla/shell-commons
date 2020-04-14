@@ -34,5 +34,9 @@ alias dl="docker logs"
 
 alias dins="docker inspect"
 
+alias dkc="docker container"
+
+alias dv="docker volume"
+
 alias di="docker image"
 alias dis="docker images"
