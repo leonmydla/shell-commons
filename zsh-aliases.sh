@@ -27,6 +27,7 @@ alias drrmd="docker run --rm -d"
 alias drit="docker run -it"
 
 alias drm="docker rm"
+alias drmf="docker rm -f"
 
 alias dx="docker exec"
 
