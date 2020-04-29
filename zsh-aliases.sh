@@ -12,6 +12,8 @@ alias sag="search-aliases-for-git"
 
 alias dnsflush="sudo /etc/init.d/dns-clean restart && sudo /etc/init.d/networking force-reload"
 
+alias ghcl="github-clone"
+
 # Docker
 alias dk="docker"
 
