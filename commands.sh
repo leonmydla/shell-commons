@@ -9,5 +9,5 @@ search-aliases-for-git () {
 }
 
 github-clone () {
-	git clone git@github.com:$1
+	git clone git@github.com:$1 ${@:2}
 }
