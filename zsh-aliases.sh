@@ -14,6 +14,8 @@ alias dnsflush="sudo /etc/init.d/dns-clean restart && sudo /etc/init.d/networkin
 
 alias ghcl="github-clone"
 
+alias "?"="echo $?"
+
 # Docker
 alias dk="docker"
 
